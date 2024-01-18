@@ -1,15 +1,9 @@
-const Sequelize = require("sequelize");
-// const db = require("../models");
 const Umzug = require("umzug");
-const path = require("path");
 const sequelize = require('../utils/helpers')
-//  require('../models/roles.model')
 require('../models/jobProfile.model')
-const umzugSeeders = require('../seeders/20240118111420-add_role'); // Adjust the path based on your project structure
+const umzugSeeders = require('../seeders/20240118111420-add_role'); 
 // const umzugSeeders = require('../umzug/seeders');
-//  require('../models/userDetails.model')
 
-//  require('../models/userEductionDetails.model')
 
 
 async function dbConnect() {

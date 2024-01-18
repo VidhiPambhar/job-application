@@ -46,7 +46,6 @@ const EducationDetails = sequelize.define('education_details', {
   board_univercity:{type: Sequelize.STRING, allowNull:true},
   year:{type: Sequelize.STRING, allowNull:true},
   percentage:{type: Sequelize.STRING, allowNull:true},
-  master_degree:{type: Sequelize.STRING, allowNull:true},
   createdAt: Sequelize.DATE, 
   updatedAt: Sequelize.DATE,
 
